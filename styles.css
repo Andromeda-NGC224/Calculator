@@ -9,14 +9,30 @@ input {
   width: 360px;
   padding-left: 12px;
   border: 1px solid #808080;
+  border-radius: 4px;
 }
 
 button {
+  margin-top: 8px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 95px;
   height: 40px;
-  width: 80px;
+  background: #4e75ff;
+  border-style: none;
+  color: #fff;
+  cursor: pointer;
 }
 
 select {
   height: 40px;
   width: 375px;
+  padding-left: 12px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+.trash {
+  display: flex;
+  max-width: 375px;
+  gap: 12px;
 }

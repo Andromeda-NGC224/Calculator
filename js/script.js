@@ -6,6 +6,7 @@ const num2 = document.querySelector(".num2");
 const signs = document.querySelector(`[name="signs"]`);
 const result = document.querySelector(".result");
 const button = document.querySelector(".button");
+const button2 = document.querySelector(".button2");
 
 form.addEventListener(`submit`, foo);
 
@@ -35,6 +36,8 @@ function foo(event) {
       }
       break;
   }
-
-  result.value = resultCount;
 }
+button2.addEventListener("click", function (event) {
+  event.preventDefault();
+  form.reset();
+});
