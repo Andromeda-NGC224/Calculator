@@ -21,6 +21,7 @@ function foo(event) {
   switch (signValue) {
     case `+`:
       resultCount = num1Value + num2Value;
+      console.log(`23`);
       break;
     case `-`:
       resultCount = num1Value - num2Value;
@@ -36,6 +37,7 @@ function foo(event) {
       }
       break;
   }
+  result.value = resultCount;
 }
 button2.addEventListener("click", function (event) {
   event.preventDefault();
